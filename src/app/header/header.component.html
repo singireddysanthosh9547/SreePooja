@@ -1,0 +1,89 @@
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header col-sm-7">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/santhu.png">
+      </a>
+    </div>
+    <ul class="nav navbar-nav nav-list">
+      <li class="active">
+        <a [routerLink]="['home']" href="#">Home</a>
+      </li>
+      <li class="dropdown">
+        <a  class="dropdown-toggle" data-toggle="dropdown" href="#">Pujas
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu col-sm-6">
+          <div class='col-sm-6'>
+            <a [routerLink]="['apppoojs']" href="#">
+              <h3 style="font-size:25px; color:lightskyblue">
+                All categories</h3>
+            </a>
+            <hr size="10">
+            <div class="sl">
+              <li>
+                <a [routerLink]="['festivalpoojas']" href="#">Festival Poojas</a>
+              </li>
+              <li>
+                <a [routerLink]="['LifeStepsI']" href="#">Life Steps</a>
+              </li>
+              <li>
+                <a [routerLink]="['OccasionalPooja']" href="#">Occasional Poojas</a>
+              </li>
+              <li>
+                <a [routerLink]="['SpecialPooja']"  href="#">Special Poojas</a>
+            </div>
+          </div>
+          <div class='col-sm-6'>
+            <li>
+              <a href="#">
+                <img src="../assets/images/2.jpg/" width="100%" height="100%">
+              </a>
+            </li>
+          </div>
+
+
+        </ul>
+<!-- 
+        </li>
+        <ul class="nav navbar-nav ">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Punyakhestram
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <div class='col-sm-6'>
+                <li>
+                  <a href="#" [routerLink]="['allpunyakshetrams']" style="font-size:25px; color:lightskyblue">All Categories</a>
+                  <hr>
+                </li>
+                <div class="sl">
+                  <li>
+                    <a [routerLink]="['riverpunyakshetrams']" href="#">River</a>
+                  </li>
+                  <li>
+                    <a [routerLink]="['shaktipeetams']" href="#">Shakthi Pettam</a>
+                  </li>
+                </div>
+              </div>
+
+              <div class='col-sm-6'>
+                <li>
+                  <a href="#">
+                    <img src="../assets/images/p6.8c4e49a2.jpg/" width="100%" height="100%" style="">
+                  </a>
+                </li>
+
+              </div>
+
+
+            </ul>
+          </li>
+        </ul> -->
+
+        <li class="active">
+          <a [routerLink]="['contactus']" href="#">Mail Us</a>
+        </li>
+    </ul>
+  </div>
+</nav>

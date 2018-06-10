@@ -1,0 +1,16 @@
+<div>
+    <img width='100%' height="275px" src="../assets/poojas/{{item.imagePath}}"/>
+
+  </div>
+
+  <div>
+    <h4>  {{item.poojaName}}</h4>
+  </div>
+  <div>
+      <p class="size ng-binding">
+        {{item.description | custompipe}}</p>
+  </div>
+  <div  class='buttons' >
+    <button (click)="viewdetails()" class="btn btn-danger">View Details</button>
+    <button class="btn btn-danger book-now">Book Now</button>
+
